@@ -1,3 +1,44 @@
+/*Encabezado*/
+
 nav {
     background-color: #7f4ca5;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff0ff;
+}
+
+.wrapper { 
+    margin: 65px auto;
+    width: 70%;
+}
+
+img {
+    max-width: 320px;
+    float: left;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+
+}
+
+.text-box {
+    color: black;
+}
+
+.text-box h2 {
+    font-family: "roboto", sans-serif;
+    font-size: 42px;
+    text-align: center;
+
+}
+
+.text-box p {
+    font-size: 16px;
+    text-align: center;
 }
