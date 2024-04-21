@@ -4,6 +4,8 @@ nav {
     background-color: #7f4ca5;
 }
 
+/*FOTO y PRESENTACIÓN*/
+
 header {
     display: flex;
     justify-content: center;
@@ -24,7 +26,6 @@ img {
     border-radius: 50px;
     margin-right: 100px;
     margin-bottom: 40px;
-
 }
 
 .text-box {
@@ -35,10 +36,37 @@ img {
     font-family: "roboto", sans-serif;
     font-size: 42px;
     text-align: center;
-
 }
 
 .text-box p {
     font-size: 16px;
     text-align: center;
 }
+
+/* ESTUDIOS y EXPERIENCIAS */
+
+section {
+    background-color: #7f4ca5;  
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-template-rows: 50%;      
+}
+ 
+
+.div1 {
+   margin: 50px;    
+}    
+
+.div2 {
+    margin: 50px;
+}
+
+h5 {
+    font-family: roboto medium;
+}
+
+
+
