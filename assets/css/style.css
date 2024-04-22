@@ -51,22 +51,48 @@ section {
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 1fr);
-    grid-template-rows: 50%;      
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;      
+    grid-column-gap: 0%;
+    grid-row-gap: 0%;
 }
  
 
 .div1 {
-   margin: 50px;    
+   grid-area: 1/1/2/2;    
 }    
 
 .div2 {
-    margin: 50px;
+    grid-area: 1/2/2/3;
 }
+
+@media only screen and (max-width:800px) {
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0%;
+    }
+
+    .div1 {
+        grid-area: 1/1/2/2;
+    }
+
+    .div2 {
+        grid-area: 2/1/3/2;
+    }
+
+}
+
 
 h5 {
     font-family: roboto medium;
 }
 
+main {
 
+    
+    background-color: yellow;
+    
+}
 
