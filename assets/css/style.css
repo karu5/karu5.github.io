@@ -29,19 +29,17 @@ img {
 }
 
 .text-box {
-    color: black;
-}
+    color: black;}
 
 .text-box h2 {
     font-family: "roboto", sans-serif;
     font-size: 42px;
-    text-align: center;
-}
+    text-align: center;}
 
 .text-box p {
     font-size: 16px;
     text-align: center;
-}
+    text-align: justify;} 
 
 /* ESTUDIOS y EXPERIENCIAS */
 
