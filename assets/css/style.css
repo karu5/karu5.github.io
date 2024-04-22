@@ -29,19 +29,18 @@ img {
 }
 
 .text-box {
-    color: black;
-}
+    color: black;}
 
 .text-box h2 {
     font-family: "roboto", sans-serif;
     font-size: 42px;
-    text-align: center;
-}
+    text-align: center;}
 
 .text-box p {
-    font-size: 16px;
+    font-size: 21px;
     text-align: center;
-}
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
 
 /* ESTUDIOS y EXPERIENCIAS */
 
